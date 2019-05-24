@@ -1,0 +1,10 @@
+TermName,DistrictName,SchoolName,StudentLastName,StudentFirstName,StudentMI,StudentID,NWEAStudentID,StudentDateOfBirth,StudentEthnicGroup,StudentGender,Grade
+Fall 2018-2019,District,School,LastName1,FirstName1,,1,1,12/11/2010,Caucasian,M,2
+Fall 2018-2019,District,School,LastName2,FirstName2,,2,2,7/3/2010,Caucasian,F,3
+Fall 2018-2019,District,School,LastName3,FirstName3,,3,3,2/2/2011,African-American,M,2
+Fall 2018-2019,District,School,LastName4,FirstName4,,4,4,10/4/2011,African-American,F,1
+Fall 2018-2019,District,School,LastName5,FirstName5,,5,5,7/31/2010,Caucasian,F,3
+Fall 2018-2019,District,School,LastName6,FirstName6,,6,6,7/8/2012,African-American,M,1
+Fall 2018-2019,District,School,LastName7,FirstName7,,7,7,8/29/2008,Caucasian,F,4
+Fall 2018-2019,District,School,LastName8,FirstName8,,8,8,1/31/2012,Caucasian,M,1
+Fall 2018-2019,District,School,LastName9,FirstName9,,9,9,6/7/2012,Caucasian,M,1
