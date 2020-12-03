@@ -1,10 +1,17 @@
-Delaware has created SSIS packages to load our (custom) accountability SAT score file and the standard NWEA files in a 3.1 ODS.  
+# Assessment Loaders
+
+Delaware has created SSIS packages to load our (custom) accountability SAT score
+file and the standard NWEA files in a 3.1 ODS.  
 
 They are written using SQL Server Data Tools 2012.
 
-The sources are CSV files we get from College Boards and NWEA.   The SAT file is custom to Delaware (though of course others could request it), and used for our accountability, while the NWEA files are standard.  Sample files are included, demonstrating the file formats.
+The sources are CSV files we get from College Boards and NWEA.   The SAT file is
+custom to Delaware (though of course others could request it), and used for our
+accountability, while the NWEA files are standard.  Sample files are included,
+demonstrating the file formats.
 
-Note, these files do not handle the re-loading of data ('UPSERTS').   If data needs to be reloaded, it will first have to be deleted from the ODS.
+Note, these files do not handle the re-loading of data ('UPSERTS').   If data
+needs to be reloaded, it will first have to be deleted from the ODS.
 
 SAT: 
 
@@ -21,16 +28,11 @@ NWEA:
 - Sample data files are included, and the packages look to those relative paths for the two required files (AsessmentResults and StudentBySchol)
 
 - To run, assign the following Variables in the Package:
-	NWEA: Open variable and assign the values for below variables:
-	NWEAFileFolder:  To the NWEA root folder where the 2 sub folders exists.
-	NWEAResultsFilePath: To one of the AssessmentResults file in sub folders.
-	NWEAStudentsFilePath: To one of the StudentsBySchool file in sub folders.
+  - NWEA: Open variable and assign the values for below variables:
+  - NWEAFileFolder:  To the NWEA root folder where the 2 sub folders exists.
+  - NWEAResultsFilePath: To one of the AssessmentResults file in sub folders.
+  - NWEAStudentsFilePath: To one of the StudentsBySchool file in sub folders.
 
+## Legal Information
 
-
-
-
-
-
-
-
+Copyright 2018, Delaware Department of Education
